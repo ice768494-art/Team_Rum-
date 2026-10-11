@@ -2,7 +2,7 @@ const members = [
   // Replace these sample entries with your real members.
   { name: "۝꯭⃝゚─ͥ─᪵ᷟ᪳🥵𝗝𝗜𝗠 𝗜𝗡 ̶፝፝፝֟֯ؖ۬͝ﭐﭐ͢࿐𝗥𝗨𝗠", username: "@Jim_In_Tg", role: "Owner", avatar: "", initial: "O", bio: "Community Owner" },
   { name: "⎯̽͢𓏲꯭꯭꯭꯭🩵𝐉 ɪ ɴ ᴡ ᴏ ᴏ ꧊֟֯ؖؐ፝ ⸳⸳ⷮ⸳⸳ⷨ𓆩𝗥𝛖ϻ𝆊𓆪", username: "@Dandadan_Season_3_Tamil", role: "admin", avatar: "", initial: "A", bio: "Co-Owner" },
-  { name: "⎯̽͢𓏲꯭꯭꯭꯭🩵𝐒 ʜ ɪ ɴ ᴄ ʜ ᴀ ɴ ꧊֟֯ؖؐ፝ ⸳⸳ⷮ⸳⸳ⷨ𓆩𝗥𝛖ϻ𝆊𓆪", username: "@Shinchan_9_5", role: "Admin", avatar: "https://imgyx.pages.dev/RQDvc", initial: "A", bio: "TEAM Admin" },
+  { name: "⎯̽͢𓏲꯭꯭꯭꯭🩵𝐒 ʜ ɪ ɴ ᴄ ʜ ᴀ ɴ ꧊֟֯ؖؐ፝ ⸳⸳ⷮ⸳⸳ⷨ𓆩𝗥𝛖ϻ𝆊𓆪", username: "@Shinchan_9_5", role: "Admin", avatar: "https://imgyx.pages.dev/RQDvc", initial: "A", bio: "admin" },
   { name: "Member Two", username: "@member2", role: "member", avatar: "", initial: "M", bio: "TEAM RUM Member" }
 ];
 
