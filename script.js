@@ -1,8 +1,8 @@
 const members = [
   // Replace these sample entries with your real members.
-  { name: "Team RUM Admin", username: "@admin", role: "admin", avatar: "", initial: "R", bio: "Community Admin" },
-  { name: "Anime Admin", username: "@animeadmin", role: "admin", avatar: "", initial: "A", bio: "Group Admin" },
-  { name: "Member One", username: "@member1", role: "member", avatar: "", initial: "M", bio: "TEAM RUM Member" },
+  { name: "۝꯭⃝゚─ͥ─᪵ᷟ᪳🥵𝗝𝗜𝗠 𝗜𝗡 ̶፝፝፝֟֯ؖ۬͝ﭐﭐ͢࿐𝗥𝗨𝗠", username: "@Jim_In_Tg", role: "Owner", avatar: "", initial: "O", bio: "Community Owner" },
+  { name: "⎯̽͢𓏲꯭꯭꯭꯭🩵𝐉 ɪ ɴ ᴡ ᴏ ᴏ ꧊֟֯ؖؐ፝ ⸳⸳ⷮ⸳⸳ⷨ𓆩𝗥𝛖ϻ𝆊𓆪", username: "@Dandadan_Season_3_Tamil", role: "admin", avatar: "", initial: "A", bio: "Co-Owner" },
+  { name: "⎯̽͢𓏲꯭꯭꯭꯭🩵𝐒 ʜ ɪ ɴ ᴄ ʜ ᴀ ɴ ꧊֟֯ؖؐ፝ ⸳⸳ⷮ⸳⸳ⷨ𓆩𝗥𝛖ϻ𝆊𓆪", username: "@Shinchan_9_5", role: "Admin", avatar: "https://imgyx.pages.dev/RQDvc", initial: "M", bio: "TEAM Admin" },
   { name: "Member Two", username: "@member2", role: "member", avatar: "", initial: "M", bio: "TEAM RUM Member" }
 ];
 
