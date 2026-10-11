@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>TEAM RUM 🥂 | Official Community</title>
+  <meta name="description" content="TEAM RUM official community website — groups, members, admins and updates.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow glow-one"></div>
+  <div class="bg-glow glow-two"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">🥂</span>
+      <span>TEAM <b>RUM</b></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#groups">Groups</a>
+      <a href="#members">Members</a>
+      <a href="#admins">Admins</a>
+      <a href="#updates">Updates</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">OFFICIAL COMMUNITY</div>
+        <h1>TEAM <span>RUM</span> 🥂</h1>
+        <p class="tagline">ONE TEAM • ONE VIBE</p>
+        <p class="hero-text">A place for our community, conversations and team updates. Stay active, respect everyone and keep the vibe alive.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#groups">Explore Groups</a>
+          <a class="btn secondary" href="#members">Meet Members</a>
+        </div>
+        <div class="rules">
+          <span>⚔️ Stay Active</span>
+          <span>🤝 Respect Everyone</span>
+          <span>🚫 No Drama</span>
+          <span>🚫 No Abuse</span>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <div class="logo-ring">
+          <div class="logo-inner">
+            <div class="crown">♛</div>
+            <div class="logo-team">TEAM</div>
+            <div class="logo-rum">RUM</div>
+            <div class="logo-sub">ONE TEAM • ONE VIBE</div>
+            <div class="logo-glass">🥂</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="groups" class="section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">OFFICIAL COMMUNITY</div>
+          <h2>Our <span>Groups</span></h2>
+        </div>
+        <p>Join our official Telegram groups and stay connected.</p>
+      </div>
+
+      <div class="cards groups-grid">
+        <article class="card group-card">
+          <div class="icon">🥂</div>
+          <div>
+            <h3>Team RUM</h3>
+            <p class="handle">@Team_Rum</p>
+            <p>Main community group for TEAM RUM members and discussions.</p>
+          </div>
+          <a class="btn primary small" href="https://t.me/Team_Rum" target="_blank" rel="noopener">Join Group ↗</a>
+        </article>
+
+        <article class="card group-card">
+          <div class="icon">🎬</div>
+          <div>
+            <h3>Tamil New Animes</h3>
+            <p class="handle">@Tamil_New_Animes</p>
+            <p>Our anime community group for discussions and updates.</p>
+          </div>
+          <a class="btn primary small" href="https://t.me/Tamil_New_Animes" target="_blank" rel="noopener">Join Group ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="members" class="section alt">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">THE COMMUNITY</div>
+          <h2>Our <span>Members</span></h2>
+        </div>
+        <p>Member profiles can be connected to your bot/backend later.</p>
+      </div>
+
+      <div class="toolbar">
+        <input id="memberSearch" type="search" placeholder="Search members..." aria-label="Search members">
+        <select id="roleFilter" aria-label="Filter members">
+          <option value="all">All Members</option>
+          <option value="admin">Admins</option>
+          <option value="member">Members</option>
+        </select>
+      </div>
+
+      <div id="memberGrid" class="member-grid"></div>
+      <p id="noMembers" class="empty hidden">No members found.</p>
+    </section>
+
+    <section id="admins" class="section">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">TEAM LEADERS</div>
+          <h2>Our <span>Admins</span></h2>
+        </div>
+        <p>Replace the sample profiles in <code>script.js</code> with your real admins.</p>
+      </div>
+      <div id="adminGrid" class="member-grid"></div>
+    </section>
+
+    <section id="updates" class="section alt">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">LATEST</div>
+          <h2>Team <span>Updates</span></h2>
+        </div>
+        <p>Post important announcements here.</p>
+      </div>
+      <div id="updatesGrid" class="updates-grid"></div>
+    </section>
+
+    <section class="join-banner">
+      <div>
+        <div class="eyebrow">STAY CONNECTED</div>
+        <h2>Ready to join the vibe? 🥂</h2>
+        <p>Join our official Telegram groups and become part of the community.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://t.me/Team_Rum" target="_blank" rel="noopener">Team RUM ↗</a>
+        <a class="btn secondary" href="https://t.me/Tamil_New_Animes" target="_blank" rel="noopener">Tamil New Animes ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>🥂 TEAM RUM</strong>
+      <span>ONE TEAM • ONE VIBE</span>
+    </div>
+    <p>© <span id="year"></span> TEAM RUM. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
